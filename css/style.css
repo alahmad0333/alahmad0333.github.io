@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+}
+p{
+    font-size:18px;
+}
+body {
+    background-color:#00AFC1;
+}
+.row{
+    padding-top:40px;
+    padding-left: 60px;
+    padding-right: 40px;
+}
+
+.column1 {
+    float: left;
+    width: 30%;
+    height: 2000px; 
+    background-color:#fff;
+}
+.column2{
+    float: right;
+    width: 70%;
+    height:2000px;
+    background-color:#fff; 
+
+}
+
+.column1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 70%;
+}
+
+.Contact{
+    text-align: left;
+    margin-left: 75px;   
+}
+.skils{
+    text-align: left;
+    margin-left: 75px;   
+ }
+.img-profile{
+    width:31px;
+    float: left;
+    margin-right:10px;
+    margin-top:5px;
+}
+.exp{
+    display:inline-block;
+    width: 100%;   
+}
+
+.row3{
+    float: left;
+    width: 25%;
+}
+.row2{
+    float: right;
+    width: 70%;
+}
+hr{
+    width: 99%;
+    text-align: center;
+}
+.exp-hr{
+    width: 40%;
+}
+.img-exp{
+    width:25px;
+    float: left;
+    margin-right:10px;
+    margin-top:0px;
+}
+.download{
+    background-color:rgb(108, 222, 165);
+    width: 20%;
+    color: black;
+    padding: 10px;
+    font-size:20px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.download:hover {
+    background-color:rgb(141, 210, 175);
+}
+.btn-download{
+    padding: 10px;
+    text-align: center;
+}
+#head{
+    color: #006778;
+
+}
+#jop-name{
+    color: #0093AB;
+}
+#company{
+    color:#00AFC1;
+}
+#date{
+    color:#898888;
+}
+#cp-name{
+    color:#FFD124;
+}
+.Personal{
+    text-align: center;
+}
+.per-hr{
+    width: 70%;
+}
+.Contact img{
+    width:26px;
+    float: left;
+    margin-right:10px;
+    margin-top:1px;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    
+.column1{
+    display: block;
+    width: auto;
+    height:max-content;
+}
+
+.column2{
+    display: block;
+    width: auto;
+    height:max-content;
+}
+
+
+.exp{
+
+    display: block;
+    width: auto;
+    height:max-content;
+
+}
+
+.row3{
+    display: block;
+    width: auto;
+    height:max-content;
+    padding-left:20%;
+    padding-right:20%;
+    font-size: 12px;
+    text-align: center
+}
+.row2{
+    display: block;
+    width: auto;
+    height:max-content;
+    padding-left:10%;
+    padding-right:20%;
+    font-size: 12px;
+    text-align: center;
+
+
+}
+
+
+
+    
+
+
+
+
+  }
+
+
+
+
